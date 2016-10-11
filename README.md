@@ -36,7 +36,7 @@ find . -maxdepth 2 -mindepth 2 -type d
 修改 script.sh ：填入 YOUR_TOP_LEVEL_FOLDER 的绝对路径
 > cd github_bash_boy1
 > bash script.sh
-查看 "1000 文件夹" 新的目录结构
+查看 "1000 文件夹" 新的目录结构：实现移动文件到自己上层的文件夹
 ```
 
 运行的理想结果应该是：形成了新的目录结构 (由 1000_ori 的目录结构 -> 1000_r 的目录结构)。具体描述见 [1]
